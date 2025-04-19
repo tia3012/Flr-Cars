@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>FLR Cars Showroom</title>
+    <link rel="stylesheet" type="text/css" href="screenStyle.css" />
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ourcars.html">Our Collection</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div id="site-name">FLR Cars</div>
+    </div>
+    
+
+    <section id="test-drive" class="test-drive-section">
+        <div class="container">
+            <h2>Book a Test Drive Now!</h2>
+            <p>Fill out the form below to book your test drive and enjoy driving your favorite car from FLR Cars.</p>
+
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="car-model">Car Model</label>
+                    <select id="car-model" name="car-model" required>
+                        <option value="">Select a model</option>
+                        <option value="compact">Compact Model</option>
+                        <option value="family">Family Model</option>
+                        <option value="mpv">MPV Model</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Book Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

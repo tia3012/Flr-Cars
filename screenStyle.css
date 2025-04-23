@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0A0A0A; /* Midnight Black */
-    color: #A6A7A8; /* Soft Metallic Grey */
+    background-color: #0A0A0A; 
+    color: #A6A7A8;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,6 @@ html, body {
     padding: 0;
 }
 
-/* رأس الصفحة */
 #header {
     text-align: center;
     margin-top: 50px;
@@ -22,8 +21,8 @@ html, body {
 }
 
 #navigation {
-    background-color: #1D2A36; /* Deep Blue-Grey */
-    border-bottom: 4px solid #F5C54D; /* Warm Gold */
+    background-color: #1D2A36; 
+    border-bottom: 4px solid #F5C54D; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,32 +44,35 @@ html, body {
 #navigation ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: #F5C54D; /* Warm Gold */
+    color: #F5C54D; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px; /* Increased font size */
-    padding: 12px 18px; /* Increased padding for a larger clickable area */
+    font-size: 18px; 
+    padding: 12px 18px; 
     transition: all 0.3s ease;
 }
+.nav{}
 
 #navigation ul li a:hover {
-    color: #F5C54D; /* Deep Blue-Grey */
-    background-color: #C1001A; /* Warm Gold */
-    border-radius: 5px; /* Rounded corners for the hover effect */
+    color: #F5C54D; 
+    background-color: #C1001A; 
+    border-radius: 5px; 
 }
 
 #site-name {
     color: #F5C54D;
     font-weight: bold;
-    font-size: 24px; /* Increased font size */
+    font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #navigation ul li a.active {
-    color: #F5C54D; /* اللون الفاتح للروابط النشطة */
-    background-color: #C1001A; /* الخلفية الفاتحة */
-    border-radius: 5px; /* إضافة حدود دائرية */
-    font-weight: bold; /* جعل النص أكثر وضوحًا */
+    color: #F5C54D; 
+    background-color: #C1001A; 
+    border-radius: 5px;
+    font-weight: bold; 
 }
-/* الهيدر الرئيسي */
+.header-btn{
+  background-color: ;
+}
 #main-header {
     background: url('images/jesse-g-c-ANY0Pyj5X8Y-unsplash.jpg') no-repeat center center;
     background-size: cover;
@@ -84,11 +86,11 @@ html, body {
 }
 
 .header-content {
-    background-color: rgba(10, 10, 10, 0.7); /* Midnight black with transparency */
+    background-color: rgba(10, 10, 10, 0.7); 
     padding: 40px;
     border-radius: 20px;
     width: 80%;
-    box-shadow: 0 0 20px rgba(245, 197, 77, 0.4); /* golden glow */
+    box-shadow: 0 0 20px rgba(245, 197, 77, 0.4);
 }
 
 .header-text h1 {
@@ -107,7 +109,7 @@ html, body {
 
 .header-btn {
     padding: 15px 35px;
-    background-color: #C1001A; /* Ferrari Red */
+    background-color: #C1001A;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -118,13 +120,12 @@ html, body {
 }
 
 .header-btn:hover {
-    background-color: #F5C54D; /* Warm Gold */
+    background-color: #F5C54D; 
     color: #0A0A0A;
 }
 
-/* About FLR Cars Section */
 #about-flr {
-    background-color: #1D2A36; /* Deep Blue-Grey */
+    background-color: #1D2A36; 
     padding: 80px 20px;
     color: #fff;
   }
@@ -146,13 +147,13 @@ html, body {
   
   .about-text h2 {
     font-size: 36px;
-    color: #F5C54D; /* Warm Gold */
+    color: #F5C54D; 
     margin-bottom: 20px;
   }
   
   .about-text p {
     font-size: 18px;
-    color: #E0E0E0; /* فاتح على رمادي ناعم */
+    color: #E0E0E0; 
     line-height: 1.7;
     margin-bottom: 15px;
   }
@@ -170,17 +171,16 @@ html, body {
     text-align: center;
   }
   
-/* Car Categories - Simple Design */
 #car-categories-simple {
     padding: 60px 20px;
-    background-color: #0A0A0A; /* Midnight Black */
-    color: #F5C54D; /* Warm Gold */
+    background-color: #0A0A0A; 
+    color: #F5C54D;
     text-align: center;
 }
 
 .section-title {
     font-size: 36px;
-    color: #F5C54D; /* Warm Gold */
+    color: #F5C54D; 
     margin-bottom: 40px;
 }
 
@@ -197,7 +197,7 @@ html, body {
     flex: 1;
     min-width: 280px;
     max-width: 32%;
-    background-color: #1D2A36; /* Deep Blue-Grey */
+    background-color: #1D2A36;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.4);
@@ -218,20 +218,20 @@ html, body {
 
 .category-block h3 {
     font-size: 24px;
-    color: #F5C54D; /* Warm Gold */
+    color: #F5C54D; 
     margin-top: 10px;
 }
 
 .category-block p {
     font-size: 16px;
-    color: #E0E0E0; /* Soft Light Text on Dark BG */
+    color: #E0E0E0; 
     margin: 10px 0 20px;
 }
 
 .explore-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #C1001A; /* Ferrari Red */
+    background-color: #C1001A; 
     color: #fff;
     text-decoration: none;
     border-radius: 8px;
@@ -240,17 +240,16 @@ html, body {
 }
 
 .explore-btn:hover {
-    background-color: #F5C54D; /* Gold on Hover */
+    background-color: #F5C54D; 
     color: #0A0A0A;
     transform: scale(1.05);
 }
  
   
-/* قسم أبرز الموديلات */
 #featured-models {
     text-align: center;
     margin: 50px 0;
-    background-color: #1D2A36; /* أزرق رمادي داكن */
+    background-color: #1D2A36; 
     color: #fff;
     padding: 30px 0;
 }
@@ -270,7 +269,7 @@ html, body {
 }
 
 .model-card {
-    background-color: #333333; /* أسود داكن */
+    background-color: #333333; 
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
@@ -290,18 +289,18 @@ html, body {
 .model-card h3 {
     font-size: 28px;
     margin-top: 15px;
-    color: #F5C54D; /* ذهبي دافئ */
+    color: #F5C54D; 
 }
 
 .model-card p {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #A6A7A8; /* رمادي معدني ناعم */
+    color: #A6A7A8; 
 }
 
 .model-btn {
     padding: 12px 25px;
-    background-color: #515A49; /* أخضر داكن */
+    background-color: #515A49; 
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
@@ -311,16 +310,15 @@ html, body {
 }
 
 .model-btn:hover {
-    background-color: #899798; /* رمادي فاتح */
+    background-color: #F5C54D; 
 }
 
      
-/* قسم مميزات المعرض */
 #showroom-features {
     text-align: center;
     margin: 50px 0;
-    background-color: #0A0A0A; /* أسود داكن */
-    color: #F5C54D; /* ذهبي دافئ */
+    background-color: #0A0A0A; 
+    color: #F5C54D; 
     padding: 40px 0;
 }
 
@@ -331,7 +329,7 @@ html, body {
     text-shadow: 1px 1px 3px #000;
 }
 #features {
-    background-color: #1D2A36; /* أزرق رمادي داكن */
+    background-color: #1D2A36;
     color: #fff;
     padding: 60px 20px;
 }
@@ -339,7 +337,7 @@ html, body {
 .section-title {
     text-align: center;
     font-size: 36px;
-    color: #F5C54D; /* ذهبي */
+    color: #F5C54D; 
     margin-bottom: 50px;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -424,7 +422,6 @@ html, body {
   }
   
 
-/* Showroom */
 
 
   #showroom h1 {
@@ -434,7 +431,6 @@ html, body {
     color: #F5C54D;
   }
   
-  /* عناوين الفئات */
   #showroom h2 {
     font-size: 26px;
     color: #C1001A;
@@ -443,7 +439,6 @@ html, body {
     margin-bottom: 20px;
   }
   
-  /* تبويبات التصنيف */
   #category-tabs {
     text-align: center;
     background-color: #1D2A36;
@@ -470,7 +465,6 @@ position: static;
     color: #1D2A36;
   }
   
-  /* كل مجموعة سيارات */
   .car-category {
     display: flex;
     flex-wrap: wrap;
@@ -479,7 +473,6 @@ position: static;
     margin-bottom: 60px;
   }
   
-  /* كارت السيارة */
   .car-item {
     background-color: #1D2A36;
     border-radius: 16px;
@@ -503,21 +496,18 @@ position: static;
     border: 2px solid #C1001A;
   }
   
-  /* اسم السيارة */
   .car-item h3 {
     color: #F5C54D;
     margin: 15px 0 10px;
     font-size: 20px;
   }
   
-  /* وصف السيارة */
   .car-item p {
     font-size: 14px;
     color: #A6A7A8;
     margin-bottom: 15px;
   }
   
-  /* زر التفاصيل */
   .car-item .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -532,14 +522,19 @@ position: static;
   .car-item .btn:hover {
     background-color: #F5C54D;
     color: #1D2A36;
-  }
-  
-/* قسم تجربة القيادة */
-.test-drive-section {
-    background-color: #1D2A36; /* أزرق رمادي داكن */
-    padding: 60px 0;
     color: #fff;
     text-align: center;
+}
+  .car-item .not .btn:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C1001A;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(245, 197, 77, 0.4);
 }
 
 .test-drive-section h2 {
@@ -558,7 +553,7 @@ position: static;
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.6); /* شفافية للهوية الفخمة */
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 30px;
     border-radius: 10px;
 }
@@ -587,12 +582,12 @@ position: static;
 
 .test-drive-section .form-group input:focus,
 .test-drive-section .form-group select:focus {
-    border-color: #F5C54D; /* الذهبي الدافئ */
+    border-color: #F5C54D; 
     outline: none;
 }
 
 .test-drive-section .btn {
-    background-color: #C1001A; /* أحمر فاخر */
+    background-color: #C1001A; 
     color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
@@ -603,7 +598,7 @@ position: static;
 }
 
 .test-drive-section .btn:hover {
-    background-color: #F5C54D; /* الذهبي الدافئ */
+    background-color: #F5C54D;
 }
 
 #car-detail {
@@ -674,9 +669,9 @@ position: static;
   }
   
 
-  #footer {
-    background-color: #1D2A36; /* Deep Blue-Grey */
-    color: #F5C54D; /* Warm Gold */
+#footer {
+    background-color: #1D2A36; 
+    color: #F5C54D; 
     padding: 20px 0;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -705,11 +700,11 @@ position: static;
 
 #footer ul li a {
     text-decoration: none;
-    color: #F5C54D; /* Warm Gold */
+    color: #F5C54D; 
     transition: color 0.3s ease;
 }
 
 #footer ul li a:hover {
-    color: #A6A7A8; /* Soft Metallic Grey */
+    color: #A6A7A8;
 }
 

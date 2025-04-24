@@ -50,7 +50,33 @@ html, body {
     padding: 12px 18px; 
     transition: all 0.3s ease;
 }
-.nav{}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+.logo {
+  width: 50px; 
+  height: auto;
+  margin-right: 10px; 
+  border-radius: 10px;
+}
+#navigation .btn{
+  padding: 15px 35px;
+  color: #F5C54D;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+#navigation .btn:hover{
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  transform: translateY(-3px);
+ 
+}
 
 #navigation ul li a:hover {
     color: #F5C54D; 

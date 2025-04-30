@@ -734,3 +734,17 @@ position: static;
     color: #A6A7A8;
 }
 
+textarea {
+  width: 70%;
+  margin: 0 200px ;
+  padding: 12px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical; /* Allows the user to resize it vertically */
+  font-size: 16px;
+  font-family: inherit;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}

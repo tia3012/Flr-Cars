@@ -96,11 +96,9 @@ html, body {
     border-radius: 5px;
     font-weight: bold; 
 }
-.header-btn{
-  background-color: ;
-}
+
 #main-header {
-    background: url('images/jesse-g-c-ANY0Pyj5X8Y-unsplash.jpg') no-repeat center center;
+    background: url('images/brandon-atchison-_DzW3MT-iIY-unsplash.jpg') no-repeat center center;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -275,7 +273,6 @@ html, body {
 #featured-models {
     text-align: center;
     margin: 50px 0;
-    background-color: #1D2A36; 
     color: #fff;
     padding: 30px 0;
 }
@@ -295,7 +292,7 @@ html, body {
 }
 
 .model-card {
-    background-color: #333333; 
+    background-color: #a0001579; 
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.6);
@@ -315,7 +312,7 @@ html, body {
 .model-card h3 {
     font-size: 28px;
     margin-top: 15px;
-    color: #F5C54D; 
+    color: #ddd; 
 }
 
 .model-card p {
@@ -326,8 +323,8 @@ html, body {
 
 .model-btn {
     padding: 12px 25px;
-    background-color: #515A49; 
-    color: #fff;
+    background-color: #F5C54D; 
+    color: #1D2A36;
     text-decoration: none;
     border-radius: 10px;
     font-weight: bold;
